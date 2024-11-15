@@ -17,6 +17,7 @@ class myApp extends StatelessWidget {
           title: Text('Need Blood'),
           actions: [
             Icon(Icons.add),
+            Padding(padding: EdgeInsets.only(left: 10))
           ],
         ),
         body: Center(
@@ -24,6 +25,7 @@ class myApp extends StatelessWidget {
             child: Center(
               child: Column(
                 children: [
+                  Padding(padding: EdgeInsets.only(top: 220)),
                   CircleAvatar(
                     backgroundColor:Colors.black38 ,
                     radius: 80,
