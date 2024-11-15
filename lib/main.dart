@@ -29,7 +29,7 @@ class myApp extends StatelessWidget {
                     radius: 80,
                     child: Icon(Icons.water_drop,color: Colors.deepOrange,size: 60,),
                   ),
-                  Text('Donate Bload')
+                  Text('Donate Bload',style: TextStyle(fontSize: 24,color: CupertinoColors.darkBackgroundGray),)
                 ],
               ),
             ),
